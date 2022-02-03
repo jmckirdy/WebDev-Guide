@@ -5,3 +5,7 @@ This is a Web Developer's guide showing how to go from 'no-knowledge' to a moder
 There are many paths a person could take, this is not meant to cover them all. Just the basics on how to get going to the point where you can build cool web apps that scale.
 
 I generally picked the easiest technologies to get started with.
+
+This uses Sass, so sass files are in scss folder, and compiled to css folder.
+
+Icons are in Assets folder.
