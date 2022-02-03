@@ -1,0 +1,65 @@
+// %btn {
+//     display: inline-block;
+//     border-radius: 5px;
+
+// }
+
+// double check colors later
+.hero-text button {
+    display: inline;
+    border: 1px solid $secondary-color;  //gives it a border to prevent :hover from making the text/layout wobble!
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+    font-size:large;
+    font-weight: bold;
+    padding: 13px 30px;
+
+    color: white;
+    background-color: $secondary-color;
+
+    text-align: center;
+    cursor: pointer;
+
+    // font-size: 14px;
+    margin: 15px;
+}
+.hero-text button:hover {
+    background-color: #1d8d84;
+    color: rgb(235, 235, 235);
+    border: 1px solid #323232;
+}
+
+.button {
+    display: inline-block;
+    transition-duration: 0.4s;
+    border: 2px solid $secondary-color;  //gave it a border to prevent :hover from making the text/layout wobble!
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 0px 15px 0px 0px;
+    text-decoration: none;
+    padding: 0px 18px 12px 12px; // tweaks button size
+
+    color: white;
+    background-color: $secondary-color;
+
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #323232;
+    border: 2px solid $secondary-color;
+}
+
+.button-icon {
+    display: inline-block; // these 2 work together, understand better.
+    vertical-align:text-bottom; // these 2 work together, understand better.
+    width: 25px;
+}
+
+
+// clear: both;
+
+
+
